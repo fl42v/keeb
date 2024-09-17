@@ -1,0 +1,33 @@
+{
+    "manufacturer": "fl42v",
+    "keyboard_name": "crkbd-2040",
+    "maintainer": "fl42v",
+    "bootloader": "rp2040",
+    "diode_direction": "COL2ROW",
+    "processor": "RP2040",
+    "url": "",
+    "usb": {
+        "vid": "0xDEAD",
+        "pid": "0xBEEF",
+        "device_version": "0.0.1"
+    },
+
+    "features": {
+        "bootmagic": true,
+        "extrakey": true,
+        "lto": true,
+        "mousekey": true,
+        "nkro": true,
+        "oled": false
+    },
+    "build": {
+        "lto": true
+    },
+    "matrix_pins": {
+        "cols": [ "GP29", "GP28", "GP27", "GP26", "GP22", "GP20" ],
+        "rows": [ "GP4", "GP5", "GP6", "GP7" ]
+    },
+    "split": {
+        "enabled": true
+    }
+}

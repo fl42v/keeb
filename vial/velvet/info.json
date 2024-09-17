@@ -1,0 +1,14 @@
+{
+    "manufacturer": "ErgoHaven × c0h2r",
+    "keyboard_name": "velvet-prototype",
+    "maintainer": "c0h2r",
+    "features": {
+        "bootmagic": true,
+        "nkro": true
+    },
+    "usb": {
+        "device_version": "1.0.0",
+        "pid": "0x0000",
+        "vid": "0xDEAD"
+    }
+}

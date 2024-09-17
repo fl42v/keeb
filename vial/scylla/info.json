@@ -1,0 +1,14 @@
+{
+    "manufacturer": "Bastradkb × c0h2r",
+    "keyboard_name": "kinda scylla",
+    "maintainer": "c0h2r",
+    "features": {
+        "bootmagic": true,
+        "nkro": true
+    },
+    "usb": {
+        "device_version": "1.0.0",
+        "pid": "0xBABE",
+        "vid": "0xCAFE"
+    }
+}

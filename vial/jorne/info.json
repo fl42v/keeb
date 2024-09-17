@@ -1,0 +1,17 @@
+{
+    "manufacturer": "🤷",
+    "keyboard_name": "jorne",
+    "maintainer": "🤷",
+    "bootloader": "atmel-dfu",
+    "features": {
+        "bootmagic": true,
+        "nkro": true
+    },
+    "processor": "atmega32u4",
+    "url": "",
+    "usb": {
+        "device_version": "0.0.0",
+        "pid": "0xD00D",
+        "vid": "0xCAFE"
+    }
+}

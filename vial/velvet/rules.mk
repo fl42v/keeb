@@ -1,0 +1,14 @@
+# This file intentionally left blank
+#
+#CONSOLE_ENABLE = yes
+#MCU = atmega32u4
+MCU = RP2040
+BOARD = GENERIC_RP_RP2040
+BOOTLOADER = rp2040
+ALLOW_WARNINGS = yes
+PICO_INTRINSICS_ENABLED = no
+
+#BOOTLOADER = caterina
+SPLIT_KEYBOARD = yes
+
+SERIAL_DRIVER = vendor
