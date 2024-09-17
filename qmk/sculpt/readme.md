@@ -2,7 +2,7 @@
 
 ## wtf
 
-russian version of ms sculpt converted to qmk and powered by rp2040, handwired. left ctrl key and fn switch not working.
+russian version of ms sculpt converted to qmk and powered by rp2040, handwired. left ctrl (line 122 in keyboard.json is invalid) key and fn switch not working.
 
 ![fl42v/sculpt](imgur.com image replace me!)
 

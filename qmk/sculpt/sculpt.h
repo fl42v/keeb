@@ -3,6 +3,7 @@
 
 #pragma once
 
+/* old mapping
 #define NOP KC_NO
 
 #define LAYOUT( \
@@ -13,15 +14,17 @@
   K5E, K5D, K5C, K5B, K5A, K6A, K69, K59, K57, K55, K44, K52, K63, K53, \
   WTF, K3F, K4G, K6B, K68, K46, K43, K60, K48, K64, K61 \
 ) { \
-  { NOP, K01, NOP, K03, K04, K05, NOP, K07, K08, K09, K0A, K0B, K0C, K0D, NOP, NOP, NOP, }, \
-  { NOP, K11, NOP, K13, K14, K15, NOP, K17, K18, K19, K1A, K1B, K1C, K1D, NOP, K1F, NOP, }, \
-  { NOP, K21, NOP, K23, K24, K25, NOP, K27, NOP, K29, K2A, K2B, K2C, K2D, NOP, K2F, NOP, }, \
-  { NOP, K31, NOP, K33, K34, K35, NOP, K37, K38, K39, K3A, K3B, NOP, K3D, NOP, K3F, NOP, }, \
-  { NOP, NOP, NOP, K43, K44, K45, K46, NOP, K48, K49, K4A, K4B, K4C, K4D, NOP, NOP, K4G, }, \
-  { NOP, K51, K52, K53, NOP, K55, NOP, K57, NOP, K59, K5A, K5B, K5C, K5D, K5E, NOP, NOP, }, \
-  { K60, K61, NOP, K63, K64, NOP, NOP, NOP, K68, K69, K6A, K6B, NOP, NOP, NOP, NOP, NOP, }, \
-  { NOP, K71, NOP, K73, K74, K75, NOP, K77, K78, K79, K7A, K7B, K7C, K7D, NOP, K7F, NOP, } \
+        0    1    2    3    4    5    6    7    8    9   10   11   12   13   14   15   16
+ 0  { NOP, K01, NOP, K03, K04, K05, NOP, K07, K08, K09, K0A, K0B, K0C, K0D, NOP, NOP, NOP, }, \
+ 1  { NOP, K11, NOP, K13, K14, K15, NOP, K17, K18, K19, K1A, K1B, K1C, K1D, NOP, K1F, NOP, }, \
+ 2  { NOP, K21, NOP, K23, K24, K25, NOP, K27, NOP, K29, K2A, K2B, K2C, K2D, NOP, K2F, NOP, }, \
+ 3  { NOP, K31, NOP, K33, K34, K35, NOP, K37, K38, K39, K3A, K3B, NOP, K3D, NOP, K3F, NOP, }, \
+ 4  { NOP, NOP, NOP, K43, K44, K45, K46, NOP, K48, K49, K4A, K4B, K4C, K4D, NOP, NOP, K4G, }, \
+ 5  { NOP, K51, K52, K53, NOP, K55, NOP, K57, NOP, K59, K5A, K5B, K5C, K5D, K5E, NOP, NOP, }, \
+ 6  { K60, K61, NOP, K63, K64, NOP, NOP, NOP, K68, K69, K6A, K6B, NOP, NOP, NOP, NOP, NOP, }, \
+ 7  { NOP, K71, NOP, K73, K74, K75, NOP, K77, K78, K79, K7A, K7B, K7C, K7D, NOP, K7F, NOP, } \
 }
+*/
 
 /*
  * Feature disable options
@@ -29,12 +32,12 @@
  */
 
 /* disable debug print */
-//#define NO_DEBUG
+// #define NO_DEBUG
 
 /* disable print */
-//#define NO_PRINT
+// #define NO_PRINT
 
 /* disable action features */
-//#define NO_ACTION_LAYER
-//#define NO_ACTION_TAPPING
-//#define NO_ACTION_ONESHOT
+// #define NO_ACTION_LAYER
+// #define NO_ACTION_TAPPING
+// #define NO_ACTION_ONESHOT
